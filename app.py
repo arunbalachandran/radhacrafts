@@ -9,5 +9,5 @@ def show_index():
     return render_template('index.html')
 
 if __name__ == '__main__':
-    app.run()
-    # serve(app, port=os.environ.get('PORT', 8000), cleanup_interval=100)
+    # app.run()
+    serve(app, port=os.environ.get('PORT', 8000), cleanup_interval=100)
